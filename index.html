@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Rafael Keiti Azuma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu de interação -->
+    <header id="home">
+        <nav>
+            <div class="logoLeft">Rafael Keiti Azuma</div>
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" id="icon">
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    />
+                </svg>
+            </label>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#educational">Formação Educacio-nal</a></li>
+                <li><a href="#languages">Idiomas</a></li>
+                <li><a href="#projects">Projetos</a></li> 
+                <li><a href="#contact">Contato</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- Section inicial com apresentação -->
+    <section class="start">
+        <div class="background-flex">
+            <div class="left">
+                <div class="left-size">
+                    <h1>Olá, <span>meu nome é</span></h1>
+                    <p class="presentation-name">Rafael Keiti Azu-ma</p>
+                    <p>Conheça mais sobre meu trabalho 🎈</p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="imagens/logoFace.png" alt="Logo">
+            </div>
+        </div>
+    </section>
+    <!-- Section apresentação "Sobre Mim" -->
+    <section class="aboutMe" id="about">
+        <div class="background-about">
+            <div class="content-about">
+                <div class="image-about">
+                    <img src="imagens/image-aboutme.png" alt="Sobre mim">
+                </div>
+                <div class="title-about">
+                    Sobre mim
+                    <div class="text-about">
+                        Desde muito jovem, sempre fui interessado na área de tecnologia e desenvolvimento de servidores/mods de jogos, o que me levou a explorar mais e a aprender lógica de programação.
+                        Atualmente, estou em aprendizado no projeto Neu-ronFarm ministrado pelo <a href="https://www.linkedin.com/in/caiuzu">Caio Souza</a> e tenho conhecimentos prévios em tecnologias como NodeJS, ReactJS e Java.
+                        Estou focado em aprimorar meus conhecimentos em Java, o qual comecei a estudar do zero.
+                    </div>
+                    <br>
+                <!-- Formação Educacional -->
+                    <div class="text-about" id="educational">
+                        <h3>Formação Educacional</h3>
+                        - Análise e Desenvolvimento de Sistemas | Uninter | 2024 - 06/2026
+                        <br>
+                        - Técnico em Informática | Colégio IDEIA | 2018 - 2020
+                        <br>
+                        <br>
+                        <h3>Cursos Complementares</h3>
+                        - Programador Expert - Do zero ao mercado de tra-balho!
+                        <br>
+                        - Java COMPLETO Programação Orientada a Ob-jetos + Projetos
+                        <br>
+                        - Aprenda Git e GitHub em 3 dias + Projetos reais
+                        <br>
+                        - Aprenda JAVASCRIPT em 7 dias + Projetos Re-ais
+                        <br>
+                        <br>
+                        <h3 id="languages">Idiomas</h3>
+                        - Português | Nativo
+                        <br>
+                        - Inglês | Nível Intermediário
+                        <br>
+                        - Espanhol | Nível Básico
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section de Portfólio -->
+    <section class="projects" id="projects">
+        <div class="background-proj">
+            <div class="title-proj">Projetos</div>
+            <div class="card-projects">
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+                <div class="card-container-projects">
+                    <h2>EM BREVE</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section de contato -->
+    <section class="contactMe" id="contact">
+        <div class="background-contact">
+            <div class="content-contact">
+                <form action="#" method="post">
+                    <div class="title-contact">Contato</div>
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <br>
+                        <input type="text" id="name" name="name" pla-ceholder="Seu nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" pla-ceholder="Seu email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <br>
+                        <textarea id="message" name="message" placehol-der="Sua mensagem" required></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer final do site -->
+    <footer>
+        <p>Todos os direitos reservados © <span id="currentYear"></span> - Rafael Keiti Azuma</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
